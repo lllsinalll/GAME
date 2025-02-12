@@ -40,7 +40,7 @@ document.querySelector('.check').addEventListener('click', function () {
 
 document.querySelector('.again').addEventListener('click', function () {
   secretNum = Math.trunc(Math.random() * 50) + 1;
-  score = 10;
+  score = 6;
   document.querySelector('.number').textContent = '?';
   document.querySelector('.message').textContent = 'Start guessing...';
   document.querySelector('.label-score').textContent = '💖 Lives:  ' + score;
