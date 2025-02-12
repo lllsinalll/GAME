@@ -1,7 +1,7 @@
 'use strict';
 
 let secretNum = Math.trunc(Math.random() * 50) + 1;
-let score = 10;
+let score = 6;
 
 document.querySelector('.check').addEventListener('click', function () {
   const guess = document.querySelector('.guess').value;
