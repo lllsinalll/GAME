@@ -35,7 +35,7 @@ document.querySelector('.check').addEventListener('click', function () {
   if (score <= 0) {
     document.querySelector('.message').textContent = 'You lost :(';
     document.querySelector('.check').disabled = true; // Disable the check button when score is 0
-    document.querySelector('body').style.backgeoundColor = 'red';
+    document.querySelector('body').style.backgroundColor = 'red';
     document.querySelector('.number').textContent = secretNum;
   }
 });
